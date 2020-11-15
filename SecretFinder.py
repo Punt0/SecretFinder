@@ -66,7 +66,7 @@ _regex = {
     'json_web_token' : r'ey[A-Za-z0-9-_=]+\.[A-Za-z0-9-_=]+\.?[A-Za-z0-9-_.+/=]*$',
     'slack_token' : r"\"api_token\":\"(xox[a-zA-Z]-[a-zA-Z0-9-]+)\"",
     'SSH_privKey' : r"([-]+BEGIN [^\s]+ PRIVATE KEY[-]+[\s]*[^-]*[-]+END [^\s]+ PRIVATE KEY[-]+)",
-    'Secrets' : r'secret_key|token|secret_token|auth_token|access_token|authtoken|accesstoken|access-token|authkey|client_secret|HEROKU_API_KEY|api_key|dbpasswd',
+    'Secrets' : r'secret_key|token|TOKEN|secret_token|auth_token|access_token|authtoken|accesstoken|access-token|authkey|client_secret|HEROKU_API_KEY|api_key|dbpasswd',
     
    
 }
